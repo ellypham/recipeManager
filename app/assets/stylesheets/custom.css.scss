@@ -1,6 +1,6 @@
-$navbar-default-bg: #312312;
-$light-orange: #ff8c00;
-$navbar-default-color: $light-orange;
+$navbar-default-bg: #5B5750;
+$light-orange: #8EB8E5;
+$navbar-default-color: #8EB8E5;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -18,6 +18,15 @@ $navbar-default-color: $light-orange;
     font-weight: bold;
 }
 
+.btn-success{
+    background: #E55934;
+    border: none;
+}
+
+.btn-success:hover{
+    background: #E55934;
+}
+
 #logo:hover{
     color: white;
     text-decoration: none;
@@ -31,6 +40,16 @@ body{
     margin-left: 25px;
     float: left;
     margin-top: 20px;
+}
+
+.jumbotron{
+    background-image: url("familyRecipe.jpg");
+    h1{
+        color: #fff;
+    }
+        h2{
+            color: #fff;
+        }
 }
 
 .col-lg-4{
@@ -50,6 +69,7 @@ h1{
     letter-spacing: -2px;
     margin-bottom: 30px;
     text-align: center;
+    color: #fff;
 }
 
 h2{
